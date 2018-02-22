@@ -1,14 +1,28 @@
 <!DOCTYPE html>
+<style>
+			.grid {
+			   background-color: green;
+			   display: grid;
+			   padding: 20px;
+			   grid-column-gap: 2px;
+			   grid-row-gap: 20px;
+			   grid-template-columns: auto auto auto;	  					}
+			.grid-item {
+				background-color:white;
+				font-size: 20px;
+				}
+		</style>
 <html>
 	<head>
 		<title> Ma super Web page</title>
 	</head>
 	<body>
-		<form>		
+
+		<form>
 		<div>
 			<input name="nom" type="text" placeholder="Name">
 			<input name="password" type="password" placeholder="Password">
-		</div>	
+		</div>
 		<div>
 			Couleur favorite ?
 			<input name="color" type="radio" value="red"> Red
@@ -16,8 +30,8 @@
 			<input name="color" type="radio" value="blue"> Blue
 			<input name="color" type="radio" value="other"> Other
 		</div>
-		
-		<div>   
+
+		<div>
          	Hello Henri !.....Difficile de te comprendre....
 		tu veux bouger
 		Bon voyage sur html
@@ -33,5 +47,18 @@
 				<option value="Angola">
 		</div>
 		</form>
+		<div class="grid">
+			<div class="grid-item">1</div>
+			<div class="grid-item">2</div>
+			<div class="grid-item">3</div>
+			<div class="grid-item">4</div>
+			<div class="grid-item">5</div>
+			<div class="grid-item">6</div>
+			<div class="grid-item">7</div>
+			<div class="grid-item">8</div>
+		</div>
+		<div>
+			c'est fini
+		</div>
 	</body>
 </html>
