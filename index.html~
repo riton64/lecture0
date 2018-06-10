@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+	<div class="small-container">
+		<h2>Retour sur mes Voyages</h2>
+		<p class="sub-text">Petite<strong> et </strong> longues balades.</p>
+	</div>
+</section>
+<div class="container">
+	<p class="post-hero center-text spacing"><strong>Promenade </strong> et voyages.</p>
+</div>
+<div class="container">
+	<div class="columns spacing">
+		<div class="column half">
+			<img src="/images/IMG_1.jpg" width="430" alt="Bread">
+		</div>
+		<div class="column half">
+		<br></br><br></br>			
+		<h3>petite fleur bleue</h3>
+			<p>vue sur des pentes montagneuses.</p>
+		</div>
+	</div>
